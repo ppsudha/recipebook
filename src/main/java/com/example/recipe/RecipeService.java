@@ -70,7 +70,6 @@ public class RecipeService implements RecipeRepository {
         if (recipe.getrecipeType() != null) {
             existingBook.setrecipeType(recipe.getrecipeType());
         }
-        
         if (recipe.getingredients() != null) {
             existingBook.setingredients(recipe.getingredients());
         }

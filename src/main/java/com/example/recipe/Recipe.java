@@ -6,9 +6,9 @@ public class Recipe {
     private int recipeId;
     private String recipeName;
     private String recipeType;
-    private ArrayList<String> ingredients;
+    private List<String> ingredients;
 
-    public Recipe(int recipeId, String recipeName, String recipeType,ArrayList<String> ingredients) {
+    public Recipe(int recipeId, String recipeName, String recipeType, List<String> ingredients) {
         this.recipeId = recipeId;
         this.recipeName = recipeName;
         this.recipeType = recipeType;
@@ -38,11 +38,11 @@ public class Recipe {
     public void setrecipeType(String recipeType) {
         this.recipeType = recipeType;
     }
-     public ArrayList<String> getingredients() {
+     public List<String> getingredients() {
         return ingredients;
     }
 
-    public void setingredients(ArrayList<String> ingredients) {
+    public void setingredients(List<String> ingredients) {
         this.ingredients = ingredients;
     }
 
